@@ -63,7 +63,7 @@ dataset
 ## Results
 TABLE I. Comparison of DCMUNet (only RGB) with State-of-the-Art Methods on Multimodal Coating Defect Dataset
 
-<div style="text-align: center;">
+<p align="center">
   <table>
     <tr>
       <th>Methods</th>
@@ -116,7 +116,8 @@ TABLE I. Comparison of DCMUNet (only RGB) with State-of-the-Art Methods on Multi
       <td>97.7</td>
     </tr>
   </table>
-</div>
+</p>
+
 
 
 
