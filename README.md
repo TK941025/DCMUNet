@@ -1,4 +1,5 @@
 # A Multimodal Unsupervised Coating Defect Detection Method Based on Dual-Branch Hybrid CNN-Mamba UNet
+
 ## Abstract
 &emsp;&emsp;In order to obtain high-resolution multimodal image information, we developed a stereo structured light rotating platform system, which consists of both a hardware system and a software system. The overall system comprises multiple subsystems that work together to achieve its functionality. The hardware structure has two degrees of freedom, allowing the acquisition of multimodal information from various angles, as shown in Fig. 1. 
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg)
