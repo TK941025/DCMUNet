@@ -5,9 +5,9 @@
 <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg" width="600" />
 <!-- ![image1](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg) -->
 &emsp;&emsp;The software system performs 3D reconstruction on the collected encoded images. We focus on curved coating workpieces in various orientations and utilize the stereo structured light rotating platform system to capture 2D image information and 3D point cloud data of the surface coating. Finally, we use the MVTec 3D-AD dataset as a reference to further process the collected images and point clouds, resulting in a standard multimodal coating defect dataset. The complete data collection and processing workflow is presented in Fig. 2.
-![image2](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_2.jpg)
+<img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_2.jpg" width="600" />
 &emsp;&emsp;The multimodal coating defect dataset primarily consists of 2D and 3D defects, including six common types of coating defects: orange peel, scratch, bulge, particle, shrinkage hole, and stain, as shown in Fig. 3. 
-![image3](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_3.jpg)
+<img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_3.jpg" width="600" />
 
 | -- dataset  
 &emsp;&emsp;| -- ground_truth  
@@ -61,7 +61,7 @@ TABLE I. Comparison of DCMUNet (only RGB) with State-of-the-Art Methods on Multi
 |RD++	            |94.4              |95.2              |
 |DCMUNet (Only RGB)	|**96.7**              |97.7        |
 
-![image4](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_4.jpg)
+<img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_4.jpg" width="600" />
 Fig. 4.  Comparison of coating defect detection results. The first one of the first row for each defect category is the input image and the others are the heat maps for each algorithm detection; The first of the second row for each defect category is an accurately ground truth annotated image, and the others are binarised mask images of the detection results of the respective algorithms.
 
 TABLE II. Comparison of DCMUNet with Other State-of-the-Art Multimodal Methods on Multimodal Coating Defect Dataset 
@@ -73,5 +73,5 @@ TABLE II. Comparison of DCMUNet with Other State-of-the-Art Multimodal Methods o
 |Ours (RGB + depth)|**99.3**             |**98.2**            |
 
 
-![image5](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_5.jpg)
+<img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_5.jpg" width="600" />
 Fig. 5.  Qualitative results of the DCMUNet method for the detection of coating defects.
