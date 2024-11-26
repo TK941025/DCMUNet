@@ -59,8 +59,11 @@ TABLE I. Comparison of DCMUNet (only RGB) with State-of-the-Art Methods on Multi
 |RD++	            |94.4              |95.2              |
 |DCMUNet (Only RGB)	|**96.7**              |97.7        |
 
-<img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_4.jpg" width="600" />
-Fig. 4.  Comparison of coating defect detection results. The first one of the first row for each defect category is the input image and the others are the heat maps for each algorithm detection; The first of the second row for each defect category is an accurately ground truth annotated image, and the others are binarised mask images of the detection results of the respective algorithms.
+<p align="middle"> 
+  <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_4.jpg" width="450" /> 
+  <br>
+  Fig. 4.  Comparison of coating defect detection results.
+</p>
 
 
 TABLE II. Comparison of DCMUNet with Other State-of-the-Art Multimodal Methods on Multimodal Coating Defect Dataset 
