@@ -22,7 +22,7 @@
   <br>
   Fig. 3.  Categories and analysis of multimodal coating defect dataset.
 </p>
-
+```
 dataset
 ├── ground_truth
 │   ├── bulge
