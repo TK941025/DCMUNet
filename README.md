@@ -2,7 +2,7 @@
 
 ## Abstract
 &emsp;&emsp;In order to obtain high-resolution multimodal image information, we developed a stereo structured light rotating platform system, which consists of both a hardware system and a software system. The overall system comprises multiple subsystems that work together to achieve its functionality. The hardware structure has two degrees of freedom, allowing the acquisition of multimodal information from various angles, as shown in Fig. 1. 
-<img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg" align = "middle" width="600" />
+<img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg" width="600" />
 <!-- ![image1](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg) -->
 &emsp;&emsp;The software system performs 3D reconstruction on the collected encoded images. We focus on curved coating workpieces in various orientations and utilize the stereo structured light rotating platform system to capture 2D image information and 3D point cloud data of the surface coating. Finally, we use the MVTec 3D-AD dataset as a reference to further process the collected images and point clouds, resulting in a standard multimodal coating defect dataset. The complete data collection and processing workflow is presented in Fig. 2.
 ![image2](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_2.jpg)
