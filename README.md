@@ -63,60 +63,59 @@ dataset
 ## Results
 TABLE I. Comparison of DCMUNet (only RGB) with State-of-the-Art Methods on Multimodal Coating Defect Dataset
 
-<div style="text-align: middle;">
-  <table>
-    <tr>
-      <th>Methods</th>
-      <th>I-AUROC</th>
-      <th>P-AUROC</th>
-    </tr>
-    <tr>
-      <td>CFA</td>
-      <td>88.3</td>
-      <td><strong>98.8</strong></td>
-    </tr>
-    <tr>
-      <td>CFLOW-AD</td>
-      <td>92.3</td>
-      <td>95.1</td>
-    </tr>
-    <tr>
-      <td>EfficientAD</td>
-      <td>85.3</td>
-      <td>85.0</td>
-    </tr>
-    <tr>
-      <td>FastFlow</td>
-      <td>93.5</td>
-      <td>96.7</td>
-    </tr>
-    <tr>
-      <td>PaDiM</td>
-      <td>97.1</td>
-      <td>94.9</td>
-    </tr>
-    <tr>
-      <td>PatchCore</td>
-      <td>94.6</td>
-      <td>94.7</td>
-    </tr>
-    <tr>
-      <td>SimpleNet</td>
-      <td>83.6</td>
-      <td>84.9</td>
-    </tr>
-    <tr>
-      <td>RD++</td>
-      <td>94.4</td>
-      <td>95.2</td>
-    </tr>
-    <tr>
-      <td>DCMUNet (Only RGB)</td>
-      <td><strong>96.7</strong></td>
-      <td>97.7</td>
-    </tr>
-  </table>
-</div>
+<table style="margin-left:auto;margin-right:auto;">
+  <tr>
+    <th>Methods</th>
+    <th>I-AUROC</th>
+    <th>P-AUROC</th>
+  </tr>
+  <tr>
+    <td>CFA</td>
+    <td>88.3</td>
+    <td><strong>98.8</strong></td>
+  </tr>
+  <tr>
+    <td>CFLOW-AD</td>
+    <td>92.3</td>
+    <td>95.1</td>
+  </tr>
+  <tr>
+    <td>EfficientAD</td>
+    <td>85.3</td>
+    <td>85.0</td>
+  </tr>
+  <tr>
+    <td>FastFlow</td>
+    <td>93.5</td>
+    <td>96.7</td>
+  </tr>
+  <tr>
+    <td>PaDiM</td>
+    <td>97.1</td>
+    <td>94.9</td>
+  </tr>
+  <tr>
+    <td>PatchCore</td>
+    <td>94.6</td>
+    <td>94.7</td>
+  </tr>
+  <tr>
+    <td>SimpleNet</td>
+    <td>83.6</td>
+    <td>84.9</td>
+  </tr>
+  <tr>
+    <td>RD++</td>
+    <td>94.4</td>
+    <td>95.2</td>
+  </tr>
+  <tr>
+    <td>DCMUNet (Only RGB)</td>
+    <td><strong>96.7</strong></td>
+    <td>97.7</td>
+  </tr>
+</table>
+
 
 
 |      Methods     |      I-AUROC     |    P-AUROC       | 
