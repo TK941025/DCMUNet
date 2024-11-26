@@ -1,7 +1,7 @@
 # A Multimodal Unsupervised Coating Defect Detection Method Based on Dual-Branch Hybrid CNN-Mamba UNet
 
 ## Abstract
-&emsp;&emsp;In order to obtain high-resolution multimodal image information, we developed a stereo structured light rotating platform system, which consists of both a hardware system and a software system. The overall system comprises multiple subsystems that work together to achieve its functionality. The hardware structure has two degrees of freedom, allowing the acquisition of multimodal information from various angles, as shown in Fig. 1. 
+In order to obtain high-resolution multimodal image information, we developed a stereo structured light rotating platform system, which consists of both a hardware system and a software system. The overall system comprises multiple subsystems that work together to achieve its functionality. The hardware structure has two degrees of freedom, allowing the acquisition of multimodal information from various angles, as shown in Fig. 1. 
 <p align="middle"> 
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg" width="450" /> 
   <br>
@@ -16,14 +16,14 @@
   Fig. 2.  Categories and analysis of multimodal coating defect dataset.
 </p>
 
-&emsp;&emsp;The multimodal coating defect dataset primarily consists of 2D and 3D defects, including six common types of coating defects: orange peel, scratch, bulge, particle, shrinkage hole, and stain, as shown in Fig. 3. 
+The multimodal coating defect dataset primarily consists of 2D and 3D defects, including six common types of coating defects: orange peel, scratch, bulge, particle, shrinkage hole, and stain, as shown in Fig. 3. 
 <p align="middle"> 
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_3.jpg" width="450" /> 
   <br>
   Fig. 3.  Categories and analysis of multimodal coating defect dataset.
 </p>
 
-
+The structure of the multimodal coating defect dataset.
 dataset  
 &emsp;&emsp;├── ground_truth  
 &emsp;&emsp;&emsp;&emsp;├── bulge  
