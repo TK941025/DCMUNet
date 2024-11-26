@@ -6,6 +6,7 @@
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_2.jpg)
 &emsp;&emsp;The multimodal coating defect dataset primarily consists of 2D and 3D defects, including six common types of coating defects: orange peel, scratch, bulge, particle, shrinkage hole, and stain, as shown in Fig. 3. 
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_3.jpg)
+
 | -- dataset  
 &emsp;&emsp;| -- ground_truth  
 &emsp;&emsp;&emsp;&emsp;| -- bulge  
