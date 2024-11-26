@@ -23,39 +23,40 @@
   Fig. 3.  Categories and analysis of multimodal coating defect dataset.
 </p>
 
-dataset  
-├── ground_truth  
-│   ├── bulge  
+dataset
+├── ground_truth
+│   ├── bulge
 │   │   ├── 1_mask.png
-│   │   ├── ... ...
+│   │   └── ...
 │   ├── mixed
 │   ├── orange peel
 │   ├── particle
 │   ├── scratch
 │   ├── shrinkage hole
-│   └── stain 
-├── test  
-│   ├── bulge 
+│   └── stain
+├── test
+│   ├── bulge
 │   │   ├── rgb
 │   │   │   ├── 1.png
-│   │   │   ├── ... ...
+│   │   │   └── ...
 │   │   └── xyz
 │   │       ├── 1.tiff
-│   │       ├── ... ...
+│   │       └── ...
 │   ├── mixed
 │   ├── orange peel
 │   ├── particle
 │   ├── scratch
 │   ├── shrinkage hole
-│   └── stain 
-└── train    
+│   └── stain
+└── train
     ├── good
     │   ├── rgb
     │   │   ├── 1.png
-    │   │   ├── ... ...
+    │   │   └── ...
     │   └── xyz
     │       ├── 1.tiff
-    │       ├── ... ...
+    │       └── ...
+
 
 
 
