@@ -107,7 +107,7 @@ dataset
 </div>
 
 <p align="middle"> 
-  <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_5.jpg" width="600" /> 
+  <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_5.jpg" width="550" /> 
   <br>
   Fig. 5.  Qualitative results of the DCMUNet method for the detection of coating defects.
 </p>
