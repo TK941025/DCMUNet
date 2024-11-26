@@ -90,8 +90,12 @@ dataset
   Fig. 4.  Comparison of coating defect detection results.
 </p>
 
+<p align="center">
+  <b>TABLE II. Comparison of DCMUNet with Other State-of-the-Art Multimodal Methods on Multimodal Coating Defect Dataset</b>
+</p>
 
-TABLE II. Comparison of DCMUNet with Other State-of-the-Art Multimodal Methods on Multimodal Coating Defect Dataset 
+
+<div align="center">
 |      Methods     |      I-AUROC     |    P-AUROC       | 
 |:----------------:|:----------------:|:----------------:|
 |AST (RGB + depth) |91.8             	|83.5              |
@@ -99,6 +103,7 @@ TABLE II. Comparison of DCMUNet with Other State-of-the-Art Multimodal Methods o
 |M3DM (RGB + depth)|77.8              |92.0              |
 |Ours (RGB + depth)|**99.3**             |**98.2**            |
 
+</div>
 
 <p align="middle"> 
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_5.jpg" width="450" /> 
