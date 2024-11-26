@@ -62,16 +62,15 @@ TABLE I. Comparison of DCMUNet (only RGB) with State-of-the-Art Methods on Multi
 <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_4.jpg" width="600" />
 Fig. 4.  Comparison of coating defect detection results. The first one of the first row for each defect category is the input image and the others are the heat maps for each algorithm detection; The first of the second row for each defect category is an accurately ground truth annotated image, and the others are binarised mask images of the detection results of the respective algorithms.
 
-<p align="middle"> 
-  <br>
-  TABLE II. Comparison of DCMUNet with Other State-of-the-Art Multimodal Methods on Multimodal Coating Defect Dataset 
-  |      Methods     |      I-AUROC     |    P-AUROC       | 
-  |:----------------:|:----------------:|:----------------:|
-  |AST (RGB + depth) |91.8             	|83.5              |
-  |BTF (RGB + depth) |93.1              |95.9              |
-  |M3DM (RGB + depth)|77.8              |92.0              |
-  |Ours (RGB + depth)|**99.3**             |**98.2**            |
-</p>
+
+TABLE II. Comparison of DCMUNet with Other State-of-the-Art Multimodal Methods on Multimodal Coating Defect Dataset 
+|      Methods     |      I-AUROC     |    P-AUROC       | 
+|:----------------:|:----------------:|:----------------:|
+|AST (RGB + depth) |91.8             	|83.5              |
+|BTF (RGB + depth) |93.1              |95.9              |
+|M3DM (RGB + depth)|77.8              |92.0              |
+|Ours (RGB + depth)|**99.3**             |**98.2**            |
+
 
 <p align="middle"> 
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_5.jpg" width="600" /> 
