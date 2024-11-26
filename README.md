@@ -61,10 +61,9 @@ dataset
 
 &emsp;&emsp; The dataset contains 248 samples, with 75 samples in the training set and 173 samples in the testing set. Each training sample consists of the corresponding RGB image and point cloud data, while each testing sample includes the corresponding RGB image, point cloud data, and a precise defect mask image. It is important to note that the point cloud data is used to generate depth anomaly samples, and only RGB images and depth images are used during network training and inference. 
 ## The results of the DCMUNet：
-TABLE I. Comparison of DCMUNet (only RGB) with State-of-the-Art Methods on Multimodal Coating Defect Dataset
 
 <p align="center">
-  <b>Performance Comparison</b>
+  <b>TABLE I. Comparison of DCMUNet (only RGB) with State-of-the-Art Methods on Multimodal Coating Defect Dataset</b>
 </p>
 
 <p align="center">
