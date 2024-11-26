@@ -85,7 +85,7 @@ dataset
 
 
 <p align="middle"> 
-  <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_4.jpg" width="500" /> 
+  <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_4.jpg" width="600" /> 
   <br>
   Fig. 4.  Comparison of coating defect detection results.
 </p>
@@ -107,7 +107,7 @@ dataset
 </div>
 
 <p align="middle"> 
-  <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_5.jpg" width="450" /> 
+  <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_5.jpg" width="600" /> 
   <br>
   Fig. 5.  Qualitative results of the DCMUNet method for the detection of coating defects.
 </p>
