@@ -67,17 +67,17 @@ dataset
 </p>
 
 <p align="middle"> 
-|      Methods     |      I-AUROC     |    P-AUROC       | 
-|:----------------:|:----------------:|:----------------:|
-|         CFA    	|88.3             	|**98.8**          |
-|CFLOW-AD          |92.3              |95.1              |
-|EfficientAD 	     |85.3              |85.0              |
-|FastFlow        	|93.5              |96.7              |
-|PaDiM          	 |97.1              |94.9              |
-|PatchCore	       |94.6              |94.7              |
-|SimpleNet         |83.6              |84.9              |
-|RD++	            |94.4              |95.2              |
-|DCMUNet (Only RGB)	|**96.7**              |97.7        |
+  |      Methods     |      I-AUROC     |    P-AUROC       | 
+  |:----------------:|:----------------:|:----------------:|
+  |         CFA    	|88.3             	|**98.8**          |
+  |CFLOW-AD          |92.3              |95.1              |
+  |EfficientAD 	     |85.3              |85.0              |
+  |FastFlow        	|93.5              |96.7              |
+  |PaDiM          	 |97.1              |94.9              |
+  |PatchCore	       |94.6              |94.7              |
+  |SimpleNet         |83.6              |84.9              |
+  |RD++	            |94.4              |95.2              |
+  |DCMUNet (Only RGB)	|**96.7**              |97.7        |
 </p>
 
 <p align="middle"> 
