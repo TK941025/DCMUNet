@@ -6,12 +6,14 @@
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_2.jpg)
 &emsp;&emsp;The multimodal coating defect dataset primarily consists of 2D and 3D defects, including six common types of coating defects: orange peel, scratch, bulge, particle, shrinkage hole, and stain, as shown in Fig. 3. 
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_3.jpg)
-&emsp;&emsp;The dataset contains 248 samples, with 75 samples in the training set and 173 samples in the testing set. Each training sample consists of the corresponding RGB image and point cloud data, while each testing sample includes the corresponding RGB image, point cloud data, and a precise defect mask image. It is important to note that the point cloud data is used to generate depth anomaly samples, and only RGB images and depth images are used during network training and inference.
+&emsp;&emsp;The dataset contains 248 samples, with 75 samples in the training set and 173 samples in the testing set. Each training sample consists of the corresponding RGB image and point cloud data, while each testing sample includes the corresponding RGB image, point cloud data, and a precise defect mask image. It is important to note that the point cloud data is used to generate depth anomaly samples, and only RGB images and depth images are used during network training and inference. A detailed statistical analysis of the dataset is presented in Fig. 4.
 ## Results
-A detailed statistical analysis of the dataset is presented in Fig. 4.
+
+
+TABLE I Comparison of DCMUNet (only RGB) with State-of-the-Art Methods on Multimodal Coating Defect Dataset
 |      Methods     |      I-AUROC     |    P-AUROC       | 
 |:----------------:|:----------------:|:----------------:|
-|         CFA    	|88.3             	|**98.8**              |
+|         CFA    	|88.3             	|**98.8**          |
 |CFLOW-AD          |92.3              |95.1              |
 |EfficientAD 	     |85.3              |85.0              |
 |FastFlow        	|93.5              |96.7              |
@@ -19,9 +21,12 @@ A detailed statistical analysis of the dataset is presented in Fig. 4.
 |PatchCore	       |94.6              |94.7              |
 |SimpleNet         |83.6              |84.9              |
 |RD++	            |94.4              |95.2              |
-|DCMUNet (Only RGB)	|**96.7**              |97.7              |
+|DCMUNet (Only RGB)	|**96.7**              |97.7        |
 
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_4.jpg)
+Fig. 4.  Comparison of coating defect detection results. The first one of the first row for each defect category is the input image and the others are the heat maps for each algorithm detection; The first of the second row for each defect category is an accurately ground truth annotated image, and the others are binarised mask images of the detection results of the respective algorithms.
+
+TABLE II Comparison of DCMUNet with Other State-of-the-Art Multimodal Methods on Multimodal Coating Defect Dataset 
 |      Methods     |      I-AUROC     |    P-AUROC       | 
 |:----------------:|:----------------:|:----------------:|
 |AST (RGB + depth) |91.8             	|83.5              |
@@ -31,3 +36,4 @@ A detailed statistical analysis of the dataset is presented in Fig. 4.
 
 
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_5.jpg)
+Fig. 5.  Qualitative results of the DCMUNet method for the detection of coating defects.
