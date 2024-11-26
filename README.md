@@ -6,6 +6,23 @@
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_2.jpg)
 &emsp;&emsp;The multimodal coating defect dataset primarily consists of 2D and 3D defects, including six common types of coating defects: orange peel, scratch, bulge, particle, shrinkage hole, and stain, as shown in Fig. 3. 
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_3.jpg)
+| -- dataset  
+&emsp;&emsp;| -- ground_truth  
+&emsp;&emsp;&emsp;&emsp;| -- bulge  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- 1_mask.png
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- ... ...
+&emsp;&emsp;&emsp;&emsp;| -- mixed
+&emsp;&emsp;&emsp;&emsp;| -- orange peel
+&emsp;&emsp;&emsp;&emsp;| -- particle
+&emsp;&emsp;&emsp;&emsp;| -- scratch
+&emsp;&emsp;&emsp;&emsp;| -- shrinkage hole
+&emsp;&emsp;&emsp;&emsp;| -- stain
+&emsp;&emsp;&emsp;&emsp;| -- ... ...  
+&emsp;&emsp;| -- grasp_labels(to be generated)  
+&emsp;&emsp;&emsp;&emsp;| -- objectname1_labels.npz  
+&emsp;&emsp;| -- scenes    
+
+
 &emsp;&emsp;The dataset contains 248 samples, with 75 samples in the training set and 173 samples in the testing set. Each training sample consists of the corresponding RGB image and point cloud data, while each testing sample includes the corresponding RGB image, point cloud data, and a precise defect mask image. It is important to note that the point cloud data is used to generate depth anomaly samples, and only RGB images and depth images are used during network training and inference. A detailed statistical analysis of the dataset is presented in Fig. 4.
 ## Results
 
