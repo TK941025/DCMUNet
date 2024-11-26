@@ -24,6 +24,7 @@ The multimodal coating defect dataset primarily consists of 2D and 3D defects, i
 </p>
 
 The structure of the multimodal coating defect dataset.
+
 dataset  
 &emsp;&emsp;├── ground_truth  
 &emsp;&emsp;&emsp;&emsp;├── bulge  
