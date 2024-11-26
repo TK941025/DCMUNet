@@ -16,8 +16,7 @@
 &emsp;&emsp;&emsp;&emsp;| -- particle
 &emsp;&emsp;&emsp;&emsp;| -- scratch
 &emsp;&emsp;&emsp;&emsp;| -- shrinkage hole
-&emsp;&emsp;&emsp;&emsp;| -- stain
-&emsp;&emsp;&emsp;&emsp;| -- ... ...  
+&emsp;&emsp;&emsp;&emsp;| -- stain 
 &emsp;&emsp;| -- grasp_labels(to be generated)  
 &emsp;&emsp;&emsp;&emsp;| -- objectname1_labels.npz  
 &emsp;&emsp;| -- scenes    
