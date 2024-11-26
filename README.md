@@ -11,7 +11,7 @@
 A detailed statistical analysis of the dataset is presented in Fig. 4.
 |      Methods     |      I-AUROC     |    P-AUROC       | 
 |:----------------:|:----------------:|:----------------:|
-|         CFA    	|88.3             	|98.8              |
+|         CFA    	|88.3             	|**98.8**              |
 |CFLOW-AD          |92.3              |95.1              |
 |EfficientAD 	     |85.3              |85.0              |
 |FastFlow        	|93.5              |96.7              |
@@ -19,12 +19,15 @@ A detailed statistical analysis of the dataset is presented in Fig. 4.
 |PatchCore	       |94.6              |94.7              |
 |SimpleNet         |83.6              |84.9              |
 |RD++	            |94.4              |95.2              |
-|DCMUNet (Only RGB)	|96.7              |97.7              |
+|DCMUNet (Only RGB)	|**96.7**              |97.7              |
 
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_4.jpg)
-|          |        | Seen             |                  |        | Similar          |                  |        | Novel            |                  | 
-|:--------:|:------:|:----------------:|:----------------:|:------:|:----------------:|:----------------:|:------:|:----------------:|:----------------:|
-|          | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> |
-| Ours     | 74.31  | 85.23            | 70.04            | 64.72  | 77.48            | 56.88            | 26.66  | 33.18            | 14.41             |
-| Ours + CD| 75.39  | 86.75            | 70.60            | 65.75  | 78.82            | 57.52            | 27.38  | 34.17            | 14.56             |
+|      Methods     |      I-AUROC     |    P-AUROC       | 
+|:----------------:|:----------------:|:----------------:|
+|AST (RGB + depth) |91.8             	|83.5              |
+|BTF (RGB + depth) |93.1              |95.9              |
+|M3DM (RGB + depth)|77.8              |92.0              |
+|Ours (RGB + depth)|99.3              |98.2             |
+
+
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_5.jpg)
