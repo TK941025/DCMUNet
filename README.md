@@ -1,7 +1,7 @@
 # A Multimodal Unsupervised Coating Defect Detection Method Based on Dual-Branch Hybrid CNN-Mamba UNet
 
 ## Abstract
-&emsp;&emsp;In order to obtain high-resolution multimodal image information, we developed a stereo structured light rotating platform system, which consists of both a hardware system and a software system. The overall system comprises multiple subsystems that work together to achieve its functionality. The hardware structure has two degrees of freedom, allowing the acquisition of multimodal information from various angles, as shown in Fig. 1. 
+&emsp;&emsp; In order to obtain high-resolution multimodal image information, we developed a stereo structured light rotating platform system, which consists of both a hardware system and a software system. The overall system comprises multiple subsystems that work together to achieve its functionality. The hardware structure has two degrees of freedom, allowing the acquisition of multimodal information from various angles, as shown in Fig. 1. 
 <p align="middle"> 
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg" width="450" /> 
   <br>
@@ -16,7 +16,7 @@
   Fig. 2.  Categories and analysis of multimodal coating defect dataset.
 </p>
 
-&emsp;&emsp;The multimodal coating defect dataset primarily consists of 2D and 3D defects, including six common types of coating defects: orange peel, scratch, bulge, particle, shrinkage hole, and stain, as shown in Fig. 3. 
+&emsp;&emsp; The multimodal coating defect dataset primarily consists of 2D and 3D defects, including six common types of coating defects: orange peel, scratch, bulge, particle, shrinkage hole, and stain, as shown in Fig. 3. 
 <p align="middle"> 
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_3.jpg" width="450" /> 
   <br>
@@ -59,7 +59,7 @@ dataset
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;├── 1.tiff  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;├── ... ...
 
-&emsp;&emsp;The dataset contains 248 samples, with 75 samples in the training set and 173 samples in the testing set. Each training sample consists of the corresponding RGB image and point cloud data, while each testing sample includes the corresponding RGB image, point cloud data, and a precise defect mask image. It is important to note that the point cloud data is used to generate depth anomaly samples, and only RGB images and depth images are used during network training and inference. 
+&emsp;&emsp; The dataset contains 248 samples, with 75 samples in the training set and 173 samples in the testing set. Each training sample consists of the corresponding RGB image and point cloud data, while each testing sample includes the corresponding RGB image, point cloud data, and a precise defect mask image. It is important to note that the point cloud data is used to generate depth anomaly samples, and only RGB images and depth images are used during network training and inference. 
 ## Results
 TABLE I. Comparison of DCMUNet (only RGB) with State-of-the-Art Methods on Multimodal Coating Defect Dataset
 
@@ -118,7 +118,8 @@ TABLE I. Comparison of DCMUNet (only RGB) with State-of-the-Art Methods on Multi
   </table>
 </div>
 
- 
+
+
 |      Methods     |      I-AUROC     |    P-AUROC       | 
 |:----------------:|:----------------:|:----------------:|
 |         CFA    	|88.3             	|**98.8**          |
