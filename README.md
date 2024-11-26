@@ -71,7 +71,7 @@ TABLE II. Comparison of DCMUNet with Other State-of-the-Art Multimodal Methods o
 |M3DM (RGB + depth)|77.8              |92.0              |
 |Ours (RGB + depth)|**99.3**             |**98.2**            |
 
-<p align=“center”> 
+<p align="middle"> 
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_5.jpg" width="600" /> 
 </p>
 Fig. 5.  Qualitative results of the DCMUNet method for the detection of coating defects.
