@@ -32,7 +32,7 @@ TABLE II Comparison of DCMUNet with Other State-of-the-Art Multimodal Methods on
 |AST (RGB + depth) |91.8             	|83.5              |
 |BTF (RGB + depth) |93.1              |95.9              |
 |M3DM (RGB + depth)|77.8              |92.0              |
-|Ours (RGB + depth)|**99.3 **             |**98.2**            |
+|Ours (RGB + depth)|**99.3**             |**98.2**            |
 
 
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_5.jpg)
