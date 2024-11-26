@@ -63,20 +63,74 @@ dataset
 ## Results
 TABLE I. Comparison of DCMUNet (only RGB) with State-of-the-Art Methods on Multimodal Coating Defect Dataset
 
+<p align="center">
+  <table>
+    <tr>
+      <th>Methods</th>
+      <th>I-AUROC</th>
+      <th>P-AUROC</th>
+    </tr>
+    <tr>
+      <td>CFA</td>
+      <td>88.3</td>
+      <td><strong>98.8</strong></td>
+    </tr>
+    <tr>
+      <td>CFLOW-AD</td>
+      <td>92.3</td>
+      <td>95.1</td>
+    </tr>
+    <tr>
+      <td>EfficientAD</td>
+      <td>85.3</td>
+      <td>85.0</td>
+    </tr>
+    <tr>
+      <td>FastFlow</td>
+      <td>93.5</td>
+      <td>96.7</td>
+    </tr>
+    <tr>
+      <td>PaDiM</td>
+      <td>97.1</td>
+      <td>94.9</td>
+    </tr>
+    <tr>
+      <td>PatchCore</td>
+      <td>94.6</td>
+      <td>94.7</td>
+    </tr>
+    <tr>
+      <td>SimpleNet</td>
+      <td>83.6</td>
+      <td>84.9</td>
+    </tr>
+    <tr>
+      <td>RD++</td>
+      <td>94.4</td>
+      <td>95.2</td>
+    </tr>
+    <tr>
+      <td>DCMUNet (Only RGB)</td>
+      <td><strong>96.7</strong></td>
+      <td>97.7</td>
+    </tr>
+  </table>
+</p>
 
-<t align="middle"> 
-  |      Methods     |      I-AUROC     |    P-AUROC       | 
-  |:----------------:|:----------------:|:----------------:|
-  |         CFA    	|88.3             	|**98.8**          |
-  |CFLOW-AD          |92.3              |95.1              |
-  |EfficientAD 	     |85.3              |85.0              |
-  |FastFlow        	|93.5              |96.7              |
-  |PaDiM          	 |97.1              |94.9              |
-  |PatchCore	       |94.6              |94.7              |
-  |SimpleNet         |83.6              |84.9              |
-  |RD++	            |94.4              |95.2              |
-  |DCMUNet (Only RGB)	|**96.7**              |97.7        |
-</t>
+ 
+|      Methods     |      I-AUROC     |    P-AUROC       | 
+|:----------------:|:----------------:|:----------------:|
+|         CFA    	|88.3             	|**98.8**          |
+|CFLOW-AD          |92.3              |95.1              |
+|EfficientAD 	     |85.3              |85.0              |
+|FastFlow        	|93.5              |96.7              |
+|PaDiM          	 |97.1              |94.9              |
+|PatchCore	       |94.6              |94.7              |
+|SimpleNet         |83.6              |84.9              |
+|RD++	            |94.4              |95.2              |
+|DCMUNet (Only RGB)	|**96.7**              |97.7        |
+
 
 <p align="middle"> 
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_4.jpg" width="500" /> 
