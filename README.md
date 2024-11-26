@@ -7,5 +7,22 @@
 &emsp;&emsp;The multimodal coating defect dataset primarily consists of 2D and 3D defects, including six common types of coating defects: orange peel, scratch, bulge, particle, shrinkage hole, and stain, as shown in Fig. 3. 
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_3.jpg)
 &emsp;&emsp;The dataset contains 248 samples, with 75 samples in the training set and 173 samples in the testing set. Each training sample consists of the corresponding RGB image and point cloud data, while each testing sample includes the corresponding RGB image, point cloud data, and a precise defect mask image. It is important to note that the point cloud data is used to generate depth anomaly samples, and only RGB images and depth images are used during network training and inference. A detailed statistical analysis of the dataset is presented in Fig. 4.
+|      Methods     |      I-AUROC     |    P-AUROC       | 
+|:----------------:|:----------------:|:----------------:|
+|CFA 	|88.3	|98.8|
+|CFLOW-AD 	|92.3|	95.1|
+|EfficientAD 	|85.3|	85.0|
+|FastFlow 	|93.5|	96.7|
+|PaDiM 	|97.1|	94.9|
+|PatchCore	|94.6	|94.7|
+|SimpleNet |	83.6|	84.9|
+|RD++	|94.4|	95.2|
+|DCMUNet (Only RGB)	|96.7	|97.7|
+
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_4.jpg)
+|          |        | Seen             |                  |        | Similar          |                  |        | Novel            |                  | 
+|:--------:|:------:|:----------------:|:----------------:|:------:|:----------------:|:----------------:|:------:|:----------------:|:----------------:|
+|          | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> | __AP__ | AP<sub>0.8</sub> | AP<sub>0.4</sub> |
+| Ours     | 74.31  | 85.23            | 70.04            | 64.72  | 77.48            | 56.88            | 26.66  | 33.18            | 14.41             |
+| Ours + CD| 75.39  | 86.75            | 70.60            | 65.75  | 78.82            | 57.52            | 27.38  | 34.17            | 14.56             |
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_5.jpg)
