@@ -18,9 +18,28 @@
 &emsp;&emsp;&emsp;&emsp;| -- scratch
 &emsp;&emsp;&emsp;&emsp;| -- shrinkage hole
 &emsp;&emsp;&emsp;&emsp;| -- stain 
-&emsp;&emsp;| -- grasp_labels(to be generated)  
-&emsp;&emsp;&emsp;&emsp;| -- objectname1_labels.npz  
-&emsp;&emsp;| -- scenes    
+&emsp;&emsp;| -- test  
+&emsp;&emsp;&emsp;&emsp;| -- bulge 
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- rgb
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- 1.png
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- ... ...
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- xyz
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- 1.tiff
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- ... ...
+&emsp;&emsp;&emsp;&emsp;| -- mixed
+&emsp;&emsp;&emsp;&emsp;| -- orange peel
+&emsp;&emsp;&emsp;&emsp;| -- particle
+&emsp;&emsp;&emsp;&emsp;| -- scratch
+&emsp;&emsp;&emsp;&emsp;| -- shrinkage hole
+&emsp;&emsp;&emsp;&emsp;| -- stain 
+&emsp;&emsp;| -- train    
+&emsp;&emsp;&emsp;&emsp;| -- good
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- rgb
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- 1.png
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- ... ...
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- xyz
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- 1.tiff
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- ... ...
 
 
 &emsp;&emsp;The dataset contains 248 samples, with 75 samples in the training set and 173 samples in the testing set. Each training sample consists of the corresponding RGB image and point cloud data, while each testing sample includes the corresponding RGB image, point cloud data, and a precise defect mask image. It is important to note that the point cloud data is used to generate depth anomaly samples, and only RGB images and depth images are used during network training and inference. A detailed statistical analysis of the dataset is presented in Fig. 4.
