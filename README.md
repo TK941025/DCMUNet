@@ -8,9 +8,9 @@
 ![image](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_3.jpg)
 
 | -- dataset  
-|&emsp;&emsp;| -- ground_truth  
-&emsp;&emsp;&emsp;&emsp;| -- bulge;  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- 1_mask.png;
+&emsp;&emsp;| -- ground_truth  
+&emsp;&emsp;&emsp;&emsp;| -- bulge  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- 1_mask.png
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| -- ... ...
 &emsp;&emsp;&emsp;&emsp;| -- mixed
 &emsp;&emsp;&emsp;&emsp;| -- orange peel
