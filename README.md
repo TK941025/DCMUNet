@@ -62,6 +62,63 @@ dataset
 &emsp;&emsp;The dataset contains 248 samples, with 75 samples in the training set and 173 samples in the testing set. Each training sample consists of the corresponding RGB image and point cloud data, while each testing sample includes the corresponding RGB image, point cloud data, and a precise defect mask image. It is important to note that the point cloud data is used to generate depth anomaly samples, and only RGB images and depth images are used during network training and inference. 
 ## Results
 TABLE I. Comparison of DCMUNet (only RGB) with State-of-the-Art Methods on Multimodal Coating Defect Dataset
+
+<div style="text-align: center;">
+  <table>
+    <tr>
+      <th>Methods</th>
+      <th>I-AUROC</th>
+      <th>P-AUROC</th>
+    </tr>
+    <tr>
+      <td>CFA</td>
+      <td>88.3</td>
+      <td><strong>98.8</strong></td>
+    </tr>
+    <tr>
+      <td>CFLOW-AD</td>
+      <td>92.3</td>
+      <td>95.1</td>
+    </tr>
+    <tr>
+      <td>EfficientAD</td>
+      <td>85.3</td>
+      <td>85.0</td>
+    </tr>
+    <tr>
+      <td>FastFlow</td>
+      <td>93.5</td>
+      <td>96.7</td>
+    </tr>
+    <tr>
+      <td>PaDiM</td>
+      <td>97.1</td>
+      <td>94.9</td>
+    </tr>
+    <tr>
+      <td>PatchCore</td>
+      <td>94.6</td>
+      <td>94.7</td>
+    </tr>
+    <tr>
+      <td>SimpleNet</td>
+      <td>83.6</td>
+      <td>84.9</td>
+    </tr>
+    <tr>
+      <td>RD++</td>
+      <td>94.4</td>
+      <td>95.2</td>
+    </tr>
+    <tr>
+      <td>DCMUNet (Only RGB)</td>
+      <td><strong>96.7</strong></td>
+      <td>97.7</td>
+    </tr>
+  </table>
+</div>
+
+
 |      Methods     |      I-AUROC     |    P-AUROC       | 
 |:----------------:|:----------------:|:----------------:|
 |         CFA    	|88.3             	|**98.8**          |
