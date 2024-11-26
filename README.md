@@ -66,6 +66,7 @@ dataset
   <b>TABLE I. Comparison of DCMUNet (only RGB) with State-of-the-Art Methods on Multimodal Coating Defect Dataset</b>
 </p>
 
+<div align="center">
 
 |      Methods     |      I-AUROC     |    P-AUROC       | 
 |:----------------:|:----------------:|:----------------:|
@@ -77,7 +78,10 @@ dataset
 |PatchCore	       |94.6              |94.7              |
 |SimpleNet         |83.6              |84.9              |
 |RD++	            |94.4              |95.2              |
-|DCMUNet (Only RGB)	|**96.7**              |97.7        |
+|DCMUNet (Only RGB)	|**96.7**              |97.7              |
+
+</div>
+
 
 
 <p align="middle"> 
