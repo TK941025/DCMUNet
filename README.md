@@ -11,7 +11,7 @@
 </p>
 
 <p align="middle">
-  <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/Fig6.jpg" width="400" /> 
+  <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/Fig.6.jpg" width="400" /> 
   <br>
   Fig. 2.  Stereo structured light rotating platform physical prototype.
 </p>
