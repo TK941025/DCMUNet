@@ -8,6 +8,9 @@
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg" width="450" /> 
   <br>
   Fig. 2.  Stereo structured light rotating platform physical prototype.
+  <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/Fig6.jpg" width="450" /> 
+  <br>
+  Fig. 2.  Stereo structured light rotating platform physical prototype.
 </p>
 
 <!-- ![image1](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg) -->
