@@ -7,13 +7,6 @@
 
 &emsp;&emsp;The software system performs 3D reconstruction on the collected encoded images. We focus on curved coating workpieces in various orientations and utilize the stereo structured light rotating platform system to capture 2D image information and 3D point cloud data of the surface coating. Finally, we use the MVTec 3D-AD dataset as a reference to further process the collected images and point clouds, resulting in a standard multimodal coating defect dataset. The complete data collection and processing workflow is presented in Fig. 1.2.
 
-<div align = "center">    
-  <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg" width="500" />
-  <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/Fig.6.jpg" width="350" />
-  <br>
-  Fig. 1. Stereo structured light rotating platform physical prototype and the software system.
-</div>
-
 <table>
   <tr>
     <td align="center">
@@ -40,14 +33,14 @@
 
 &emsp;&emsp; The multimodal coating defect dataset primarily consists of 2D and 3D defects, including six common types of coating defects: orange peel, scratch, bulge, particle, shrinkage hole, and stain, as shown in Fig. 4. The dataset contains 248 samples, with 75 samples in the training set and 173 samples in the testing set. Each training sample consists of the corresponding RGB image and point cloud data, while each testing sample includes the corresponding RGB image, point cloud data, and a precise defect mask image. It is important to note that the point cloud data is used to generate depth anomaly samples, and only RGB images and depth images are used during network training and inference. A detailed statistical analysis of the dataset is presented in Fig. 5.
 
-<p align="middle"> 
+<!-- <p align="middle"> 
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_2.jpg" width="450" /> 
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_3.jpg" width="450" /> 
   <br>
   Fig. 2.  Categories and analysis of multimodal coating defect dataset.
-</p>
+</p> -->
 
-<!-- <p align="middle"> 
+<p align="middle"> 
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_2.jpg" width="450" /> 
   <br>
   Fig. 2.  Categories and analysis of multimodal coating defect dataset.
@@ -57,7 +50,7 @@
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_3.jpg" width="450" /> 
   <br>
   Fig. 3.  Categories and analysis of multimodal coating defect dataset.
-</p> -->
+</p>
 
 The structure of the multimodal coating defect dataset：
 
