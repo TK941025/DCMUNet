@@ -9,10 +9,10 @@
 <div align = "center">    
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg" width="500" />
   <br>
-  Fig. 2. Stereo structured light rotating platform physical prototype.
+  Fig. 2. Stereo structured light rotating platform.
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/Fig.6.jpg" width="350" />
   <br>
-  Fig. 2. Stereo structured light rotating platform physical prototype.
+  Fig. 2. Stereo structured light rotating platform.
 </div>
 
 <!-- ![image1](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg) 
