@@ -14,6 +14,22 @@
   Fig. 1. Stereo structured light rotating platform physical prototype and the software system.
 </div>
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg" width="350" />
+      <br>
+      Fig. 1. Stereo structured light rotating platform (front view).
+    </td>
+    <td align="center">
+      <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/Fig.6.jpg" width="350" />
+      <br>
+      Fig. 2. Stereo structured light rotating platform (side view).
+    </td>
+  </tr>
+</table>
+
+
 
 <!-- ![image1](https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg) 
 <p align="middle"> 
