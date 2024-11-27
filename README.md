@@ -43,13 +43,13 @@
 <p align="middle"> 
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_2.jpg" width="450" /> 
   <br>
-  Fig. 3.  Categories and analysis of multimodal coating defect dataset.
+  Fig. 3.  Categories of multimodal coating defect dataset.
 </p>
 
 <p align="middle"> 
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_3.jpg" width="450" /> 
   <br>
-  Fig. 4.  Categories and analysis of multimodal coating defect dataset.
+  Fig. 4.  Statistical analysis of multimodal coating defect dataset.
 </p>
 
 The structure of the multimodal coating defect dataset：
