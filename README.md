@@ -17,7 +17,7 @@
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg" width="350" />
+      <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg" width="500" />
       <br>
       Fig. 1. Stereo structured light rotating platform (front view).
     </td>
