@@ -7,7 +7,9 @@
 &emsp;&emsp;The software system performs 3D reconstruction on the collected encoded images. We focus on curved coating workpieces in various orientations and utilize the stereo structured light rotating platform system to capture 2D image information and 3D point cloud data of the surface coating. Finally, we use the MVTec 3D-AD dataset as a reference to further process the collected images and point clouds, resulting in a standard multimodal coating defect dataset. The complete data collection and processing workflow is presented in Fig. 2.
 
 <div align = "center">    
-  <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg" width="500" br="Fig. 2. Stereo structured light rotating platform physical prototype." />
+  <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/fig_1.jpg" width="500" />
+  <br>
+  Fig. 2. Stereo structured light rotating platform physical prototype.
   <img src="https://github.com/TK941025/Defect-Detection/blob/main/images/Fig.6.jpg" width="350" />
   <br>
   Fig. 2. Stereo structured light rotating platform physical prototype.
